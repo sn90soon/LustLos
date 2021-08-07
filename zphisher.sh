@@ -145,14 +145,14 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${RED} ,---.              ,--.  ,--.                 ,--.
-		${RED}'   .-'  ,--,--,--. |  '--'  |  ,--,--.  ,---. |  |,-.  
-		${RED}'.  '-.  |        | |  .--.  | ' ,-.  | | .--' |     /  
-		${RED}.-'    | |  |  |  | |  |  |  | \ '-'  | \ `--. |  \  \  
-		${RED}'-----'  '--'--'--' '--'  '--'  '--`--'  '---' `--''--' 
-                                      ${RED}Version : 1.0
+	cat <<- EOF
+		${RED}                    __
+		${RED}|_|   _.   _  |   (_        _  _|_   _   ._ _  
+		${RED}| |  (_|  (_  |<  __)  \/  _>   |_  (/_  | | |
+		${RED}                       /                      ${YELLOW} 1.0
+	
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by @sn9.0 (sn9x0)${WHITE}
 	EOF
 }
 
@@ -162,7 +162,7 @@ banner_small() {
 		${BLUE}                    __
 		${BLUE}|_|   _.   _  |   (_        _  _|_   _   ._ _  
 		${BLUE}| |  (_|  (_  |<  __)  \/  _>   |_  (/_  | | |
-		${BLUE}                       /                      ${WHITE} 1.0
+		${BLUE}                       /                      ${YELLOW} 1.0
 	EOF
 }
 
@@ -256,13 +256,12 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
-		${GREEN}Version  ${RED}:  ${ORANGE}2.1
+		${GREEN}Author   ${RED}:  ${ORANGE}SN9.0 ${RED}[ ${ORANGE}Developer ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/sn90soon
+		${GREEN}Social   ${RED}:  ${CYAN}https://instagram.com/sn9.0
+		${GREEN}Version  ${RED}:  ${ORANGE}1.0
 
-		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
-								  DarkSecDevelopers,Mustakim Ahmed ${RESETBG}
+		${REDBG}${WHITE} Thanks : Am7lv7p, Sg1.7 ${RESETBG}
 
 		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
 
